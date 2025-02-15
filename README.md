@@ -1,5 +1,6 @@
 ## For the rapsberry Pi zero w v1.1:
 ### Raspberry Pi pin selection for L298N H bridge controll:
+![alt text](zero_w_v1.1/img/rpiz_pinout.png)
 **IN1 - GPIO 22**  
 **IN2 - GPIO 23**  
 **IN3 - GPIO 24**  
