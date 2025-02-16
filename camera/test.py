@@ -9,7 +9,7 @@ camera_config = picam2.create_preview_configuration(transform=Transform(rotation
 picam2.configure(camera_config)
 
 # Start the preview using DRM (non-GUI) with desired position and size
-picam2.start_preview(Preview.DRM, x=100, y=200, width=800, height=600)
+picam2.start_preview(Preview.QT, x=100, y=200, width=800, height=600)
 picam2.start()
 
 picam2.start()
