@@ -1,0 +1,21 @@
+# Raspberry Pi Robot Project - Python Dependencies
+
+# Camera modules
+picamera==1.13          # PiCamera library for Raspberry Pi Camera
+picamera2               # New PiCamera2 library (for newer Pi OS)
+flask==2.3.3            # Web framework for camera streaming
+opencv-python==4.8.0.76 # OpenCV for image processing (optional)
+
+# GPIO and hardware control
+RPi.GPIO==0.7.1         # GPIO control library
+smbus2==0.4.2           # I2C communication (for LCD)
+
+# Testing
+pytest==7.4.2           # Testing framework
+pytest-cov==4.1.0       # Coverage plugin for pytest
+pytest-mock==3.11.1     # Mocking for pytest
+
+# Development
+black==23.9.1           # Code formatter
+flake8==6.1.0           # Linting
+mypy==1.5.1             # Type checking
